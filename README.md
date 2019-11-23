@@ -1,7 +1,7 @@
 # Empathy For Dotcom
 This is a random empathy generator for Automatticians to generate random use-cases to test on WP.com
 
-[View Empathy Generator](https://empathyfor.com)
+[![](https://d1czrtm2mp3lak.cloudfront.net/items/1a0T0T351g2B0e1I0Z3o/Screen%20Shot%202019-11-22%20at%209.16.50%20PM.png =191x45)](https://empathyfor.com)
 
 ## Notes
 Visit https://empathyfor.com and you will be auto-assigned a random use-case which is a combination of:
