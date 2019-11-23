@@ -1,0 +1,2 @@
+# empathyfordotcom
+Random empathy generator
