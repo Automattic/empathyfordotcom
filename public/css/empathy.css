@@ -1,0 +1,102 @@
+/* ----------------------------------------------------- */
+/* FONTS */
+/* ----------------------------------------------------- */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v9/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(https://fonts.gstatic.com/s/notosans/v9/o-0NIpQlx3QUlC5A4PNjXhFVZNyBx2pqPA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-weight:500;
+  font-display:swap;
+  font-family:'Recoleta';
+  src:url("https://s1.wp.com/i/fonts/recoleta/500.eot");
+  src:url("https://s1.wp.com/i/fonts/recoleta/500.eot?#iefix") format("embedded-opentype"),
+      url("https://s1.wp.com/i/fonts/recoleta/500.woff2") format("woff2"),
+      url("https://s1.wp.com/i/fonts/recoleta/500.woff") format("woff"),
+      url("https://s1.wp.com/i/fonts/recoleta/500.ttf") format("truetype");
+}
+@font-face{
+  font-weight:400;
+  font-style:normal;
+  font-family:'Noticons';
+  src:url('//s0.wp.com/i/noticons/Noticons.woff') format('woff'),
+      url('//s0.wp.com/i/noticons/Noticons.ttf') format('truetype'),
+      url('//s0.wp.com/i/noticons/Noticons.svg#Noticons') format('svg');
+}
+/* ----------------------------------------------------- */
+/* STYLES */
+/* ----------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:focus,
+a:visited{
+  color: #eb6594;
+}
+body {
+  background: #1d232f;
+  color: #b0b5b8;
+  font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+body::after,
+body::before {
+  background: radial-gradient(closest-side,rgba(29,35,47,0),#1d232f),url(../img/jan-2019-texture.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  content: "";
+  height: 600px;
+  left: -200px;
+  opacity: .95;
+  position: absolute;
+  top: -300px;
+  width: 600px;
+  z-index: 1;
+}
+body::after {
+  left: auto;
+  right: -200px;
+}
+h1 {
+  color: #fff;
+  font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+}
+h2 {
+  margin-bottom: 48px;
+}
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+p {
+  color: #fff;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+section {
+  margin: 48px auto;
+  max-width: 768px;
+  padding: 24px;
+  position: relative;
+  z-index: 2;
+}
